@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Render radius: ",
+        "color": "#FFFCD1",
+        "hoverEvent": {
+            "action": "show_text",
+            "contents": [
+                "The distance around players the data pack will check"
+            ]
+        }
+    },
+    {
+        "text": "< 100 >",
+        "color": "#660CB3",
+        "underlined": false,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/data modify storage minecraft:lux SmoothTransition set value 1"
+        }
+    },
+    {
+        "text": "   "
+    },
+    {
+        "text": "< 200 >",
+        "color": "#981FFF",
+        "underlined": true,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/data modify storage minecraft:lux SmoothTransition set value 2"
+        }
+    },
+    {
+        "text": "   "
+    },
+    {
+        "text": "< 300 >",
+        "color": "#3075B3",
+        "underlined": false,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/data modify storage minecraft:lux SmoothTransition set value 3"
+        }
+    },
+    {
+        "text": "   "
+    },
+    {
+        "text": "< ∞ >",
+        "color": "#38A2FF",
+        "underlined": true,
+        "clickEvent": {
+            "action": "run_command",
+            "value": "/data remove storage minecraft:lux SmoothTransition"
+        }
+    }
+]

@@ -1,0 +1,2 @@
+execute as @s unless data storage minecraft:lux {SmoothTransition:0} run function lux:remove_light/replace_block
+execute as @s if data storage minecraft:lux {SmoothTransition:1} run function lux:remove_light/smooth/replace_block_animation

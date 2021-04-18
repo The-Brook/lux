@@ -1,0 +1,1 @@
+execute at @s unless entity @e[tag=lightEmitter,distance=..2] run function lux:remove_light/replace_by_option

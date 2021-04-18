@@ -1,0 +1,1 @@
+execute if data storage minecraft:lux active run function lux:main_loop
